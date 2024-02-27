@@ -1,3 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+  }
+  .box {
+ background-color: black;
+
+  }
+
+  .glow {
+    box-shadow: 0 0 50px 15px #48abe0;
+  }
+  
+  .light {
+    color: white;
+    width: 120px;
+    height: 120px; 
+    padding: 10px;
+    text-align: center; 
+    font-size: 35px; 
+    border-radius: 50%;
+    margin: 10px;
+
+   
+  }
+
 
 /* 
 
